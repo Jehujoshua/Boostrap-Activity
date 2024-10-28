@@ -1,56 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="https://scontent.fmnl4-6.fna.fbcdn.net/v/t39.30808-6/463071023_1064769668990288_4487267787859765054_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=6ee11a&_nc_eui2=AeEA8VFR_6qLHwg4STXm4iKL7okkUaM7Ds3uiSRRozsOzUSpH15BuLH4fh7ZlpprxxUmvVece_MRJ-xQN4VHkfr_&_nc_ohc=-LgwmOq__fEQ7kNvgHn6IIU&_nc_ht=scontent.fmnl4-6.fna&_nc_gid=A1VPV2rb1JGNV0UUyKs2xtu&oh=00_AYBKPXU2BDDJEzzQafLe1P8U1zvyICNOznHfg0gGJ75NfA&oe=6712796F"
-            alt="Logo"
-            class="rounded-circle"
-            style="height: 40px;"
-          />
-          Home
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact Us</a>
-            </li>
-          </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enigma Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .hover-effect {
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+        .hover-effect:hover {
+            transform: scale(1.05);
+            opacity: 0.9;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1SNL09zv0Mh_lAcNavUNG_z_czamSCN0-Cg&s" alt="Logo" class="rounded-circle" style="height: 40px; margin-right: 10px;">
+                Home
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
     </nav>
 
-    <div class="jumbotron text-center">
-      <h1 class="display-4">ABOUT ME</h1>
-      <p class="lead">
-        Hi, Im Jehu Joshua, an avid athlete passionate about Basketball. From a young age, I embraced competition and teamwork, which have shaped my dedication and discipline. Training rigorously, I focus on both physical performance and mental resilience, believing that mindset is key to success. One of my proudest moments was 14 under MVP, a testament to years of hard work. I also enjoy giving back by coaching youth teams, inspiring the next generation to pursue their dreams. I’m excited for future challenges and goals, and I strive to embody the values of sportsmanship and integrity in all I do.
-      </p>
+    <div class="jumbotron text-center about-me">
+        <h1 class="display-4">ABOUT ME</h1>
+        <p class="lead">Welcome to my corner of the internet! I’m not a superhero, but I do have some pretty cool skills, like making awkward situations even more awkward.</p>
     </div>
 
+    <div class="container text-center">
+        <img src="https://scontent.fmnl8-3.fna.fbcdn.net/v/t39.30808-6/348484167_570857221820899_8725899760670959131_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFsYyaF7tCQ2w9QXNfO5ZGJDZ_s3mrTV-sNn-zeatNX6wdfOq2ycr8A9bBM0h7btsh-Xlu7ZDeds9kvsMfZGL7Y&_nc_ohc=qMBXw-ZJU84Q7kNvgHB0g3i&_nc_zt=23&_nc_ht=scontent.fmnl8-3.fna&_nc_gid=AT3w357UvKwtjfELFOsBL26&oh=00_AYDrCyGCeW7XWFv9ufeVv2vZXAhQ5FwtgBOljtQ8BGxwRA&oe=6725267D" alt="Profile Picture" class="img-fluid rounded-circle mb-4" style="width: 200px;">
+        <h2>Jehu Joshua Besañes</h2>
+        <p>Age: 19</p>
+        
+        <div class="row text-left">
+            <div class="col-md-3">
+                <h3>EXPERTISE</h3>
+                <p>UI/UX Design (or as I call it, "Making Things Pretty and Usable")</p>
+            </div>
+            <div class="col-md-3">
+                <h3>DATE OF BIRTH</h3>
+                <p>26 August 2025 (Time traveler in training!)</p>
+            </div>
+            <div class="col-md-3">
+                <h3>Best Design</h3>
+                <p>Presentation Designing (Turning boring slides into art)</p>
+            </div>
+            <div class="col-md-3">
+                <h3>BORN IN</h3>
+                <p>Iligan City (where the weather is as unpredictable as my mood!)</p>
+            </div>
+        </div>
+        
+        <p class="socials-title mt-4">SOCIALS</p> 
+        <div class="social-logos">
+            <a href="https://www.facebook.com/jehujoshua.besanes" target="_blank">
+                <img src="https://www.logo.wine/a/logo/Facebook/Facebook-f_Logo-Blue-Logo.wine.svg" alt="Facebook" style="height: 40px; margin: 0 10px;">
+            </a>
+            <a href="https://www.instagram.com/jehujoshua/" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3kVUd3thApwcd48CHfttIH-z1b3ce3n8sqA&s" alt="Instagram" style="height: 40px; margin: 0 10px;">
+            </a>
+            <a href="https://www.roblox.com/users/115043750/profile" target="_blank">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCJAT7iNdljL2ZmI8_2MTH92ZbhLDSZaVAzQ&s" alt="Roblox" style="height: 40px; margin: 0 10px;">
+            </a>
+        </div>
+    </div>
+
+    <section id="skills" class="mt-5 py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">SKILLS</h2>
+            <div id="skillsCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0zjks_52XthDmYm508J1ZNCVV3Vh0fjOzbg&s" alt="Basketball" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Sports</h3>
+                                        <p class="card-text">BASKETBALL, SWIMMING, RUNNING</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_MlXyeCt6YjNprqgQ_2sGLuZgZ0TcO6rsxw&s" alt="Cooking" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Cooking</h3>
+                                        <p class="card-text">PIZZA, BURGER</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://media.istockphoto.com/id/1313854295/vector/vector-illustration-young-gamer-sit-in-front-of-a-screen-and-playing-video-game-wearing.jpg?s=612x612&w=0&k=20&c=tGDvdD63g2nFnnmjrTtcKwi_N9e5PUKhivi__JE39hw=" alt="Video Games" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Video Games</h3>
+                                        <p class="card-text">VALORANT, ROBLOX, MINECRAFT, MLBB</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://miro.medium.com/v2/resize:fit:1400/1*h_cbQRhG7Dacf8tTUQtaKQ.jpeg" alt="Graphic Design" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Graphic Design</h3>
+                                        <p class="card-text"> LOGOS, WEB DESIGNING</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShFnQ_Tk3-_0_GK4BKqWXwYZzlxdrEyB0yKQ&s" alt="Web Development" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Web Development</h3>
+                                        <p class="card-text">HTML, CSS, JS, BOOTSTRAP</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 mb-4">
+                                <div class="card text-center shadow-sm">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9lHm9LbJu4IiBhKRFU-azQ-9fNNdzjoHYOQ&s" alt="Photography" class="card-img-top hover-effect" style="height: 150px;">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Photography</h3>
+                                        <p class="card-text">LANDSCAPES, PORTRAITS, 0.5</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#skillsCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#skillsCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>
